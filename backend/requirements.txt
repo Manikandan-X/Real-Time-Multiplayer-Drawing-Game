@@ -1,0 +1,52 @@
+# =========================
+
+# Web Framework
+
+# =========================
+
+fastapi
+uvicorn[standard]
+
+# =========================
+
+# WebSocket
+
+# =========================
+
+websockets
+
+# =========================
+
+# Database
+
+# =========================
+
+sqlalchemy
+pymysql
+alembic
+
+# =========================
+
+# Data Validation
+
+# =========================
+
+pydantic
+pydantic-settings
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+python-dotenv
+
+# =========================
+
+# Testing
+
+# =========================
+
+pytest
+httpx

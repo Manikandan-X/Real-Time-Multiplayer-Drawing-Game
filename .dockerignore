@@ -1,0 +1,147 @@
+# ==========================================
+
+# Git
+
+# ==========================================
+
+.git/
+.gitignore
+.gitattributes
+
+# ==========================================
+
+# Environment Variables and Secrets
+
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+
+# Python - Backend
+
+# ==========================================
+
+**pycache**/
+**/**pycache**/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Python Packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Python Testing and Coverage
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# ==========================================
+
+# Node.js - Frontend
+
+# ==========================================
+
+node_modules/
+**/node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+
+# ==========================================
+
+# React / Vite Build Artifacts
+
+# ==========================================
+
+dist/
+**/dist/
+build/
+**/build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# ==========================================
+
+# IDEs and Editors
+
+# ==========================================
+
+.vscode/
+.idea/
+
+# ==========================================
+
+# Operating System Files
+
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+
+# Logs and Temporary Files
+
+# ==========================================
+
+*.log
+logs/
+log/
+*.tmp
+*.temp
+*.bak
+.cache/
+tmp/
+temp/
+
+# ==========================================
+
+# Database Files and Local Data
+
+# ==========================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+
+# Test Artifacts
+
+# ==========================================
+
+playwright-report/
+.nyc_output/
+
+# ==========================================
+
+# Local Docker Overrides
+
+# ==========================================
+
+docker-compose.override.yml
